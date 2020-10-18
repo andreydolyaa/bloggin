@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: lato;
-    src: url(fonts/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: euro;
-    src: url(fonts/eurof55.ttf);
+    src: url(../fonts/eurof55.ttf);
 }
 
 /******************BASIC*******************/
