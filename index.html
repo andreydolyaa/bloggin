@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/0172e47490.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+
+
+        <div class="nav-container flex space-between align-center container">
+        <div class="logo">Blogin<span>.</span></div>
+
+        <ul class="main-nav flex align-center space-between clean-list">
+            <li class="navbar-item active"><a href=""></a>Journal</li>
+            <li class="navbar-item"><a href=""></a>About</li>
+            <li class="navbar-item"><a href=""></a>Work</li>
+            <li class="navbar-item"><a href=""></a>Contact</li>
+        </ul>
+        <button class="hamburder" onclick="onOpenMenu()"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+    <div class="modal">
+        <small onclick="onCloseModal()">x</small>
+        <div class="modal-items">
+        <h1>Join us to get access to the latest stories!</h1>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="modal-input">
+        <input type="text" placeholder="Enter your email">
+        <button>Submit</button>
+        </div>
+        </div>
+    </div>
+    <div class="screen"></div>
+    <main class="main-content container">
+
+        <div class="card">
+            <div class="img-container">
+                <img src="img/Layer 2.psb.png" alt="">
+            </div>
+            <div class="card-content card-container">
+            <h1>Duis aute irure dolor in henderit in voluptate.</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+            <button onclick="onReadMore()">Continue Reading</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-container">
+                <img src="img/Layer 3.psb.png" alt="">
+            </div>
+            <div class="card-content card-container">
+            <h1>Duis aute irure dolor in henderit in voluptate.</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+            <button onclick="onReadMore()">Continue Reading</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-container">
+                <img src="img/Layer 4.psb.png" alt="">
+            </div>
+            <div class="card-content card-container">
+            <h1>Duis aute irure dolor in henderit in voluptate.</h1>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+            <button onclick="onReadMore()">Continue Reading</button>
+            </div>
+        </div>
+        <div class="last-btns flex space-between align-center">
+           <button><a href="" ><i class="fas fa-long-arrow-alt-left arrow-left"></i> Previous</a></button>
+            <button><a href="">Next <i class="fas fa-long-arrow-alt-right arrow-right"></i></a></button>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <h1>Blogin<span>.</span> </h1>
+        <p>© 2014 Blogin.com  -  All Rights Reserved  -  Find more free Templates at <span>Pixelhint.com</span></p>
+        <div class="social-icons">
+        <button class="social-btn"><a href=""><i class="fab fa-facebook-f"></i></a></button>
+        <button class="social-btn"><a href=""><i class="fab fa-twitter"></i></a></button>
+        <button class="social-btn"><a href=""><i class="fab fa-behance"></i></a></button>
+        <button class="social-btn"><a href=""><i class="fas fa-basketball-ball"></i></a></button>
+        </div>
+    </footer>
+    <script src="js/dropdown-controller.js"></script>
+</body>
+</html>
